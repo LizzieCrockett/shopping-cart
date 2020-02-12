@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=360, initial-scale=1" />
+  <title>Welcome to the Magic Shop</title>
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Rubik&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <main class="main-container">
+    <section class="section">
+      <h2 class="text-center">
+        Welcome to my market stall, traveller.<br />
+        Buy these things if they please you.
+      </h2>
+      <div class="products">
+        <div class="product">
+          <img class="product__image" src="img/products/banana.jpg" alt="Banana" />
+          <h2 class="product__name">Genuine Banana (eco-friendly)</h2>
+          <h3 class="product__price">00.20</h3>
+          <button class="btn btn--primary" data-action="ADD_TO_CART">
+            Add To Cart
+          </button>
+        </div>
+        <div class="product">
+          <img class="product__image" src="img/products/sloth.jpg" alt="Adorable sloth" />
+          <h2 class="product__name">Adorable Sloth (NOT A PET)</h2>
+          <h3 class="product__price">50.00</h3>
+          <button class="btn btn--primary" data-action="ADD_TO_CART">
+            Add To Cart
+          </button>
+        </div>
+        <div class="product">
+          <img class="product__image" src="img/products/small_car.jpg" alt="Small car" />
+          <h2 class="product__name">Small Car</h2>
+          <h3 class="product__price">400.00</h3>
+          <button class="btn btn--primary" data-action="ADD_TO_CART">
+            Add To Cart
+          </button>
+        </div>
+        <div class="product">
+          <img class="product__image" src="img/products/large_car.jpg" alt="Large car" />
+          <h2 class="product__name">Large Car</h2>
+          <h3 class="product__price">50,000</h3>
+          <button class="btn btn--primary" data-action="ADD_TO_CART">
+            Add To Cart
+          </button>
+        </div>
+        <div class="product">
+          <img class="product__image" src="img/products/house.jpg" alt="House" />
+          <h2 class="product__name">House</h2>
+          <h3 class="product__price">1.5 million</h3>
+          <button class="btn btn--primary" data-action="ADD_TO_CART">
+            Add To Cart
+          </button>
+        </div>
+        <div class="product">
+          <img class="product__image" src="img/products/unicorn.jpg" alt="Unicorn" />
+          <h2 class="product__name">Unicorn</h2>
+          <h3 class="product__price">
+            &#9734;&#9733;&#9734;&#9733;
+          </h3>
+          <button class="btn btn--primary" data-action="ADD_TO_CART">
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="text-center">Your Cart</h2>
+      <div class="cart"></div>
+      <h2 class="text-center">
+        Sorry you can't check out, I haven't learned enough JavaScript for
+        that (yet)
+      </h2>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
